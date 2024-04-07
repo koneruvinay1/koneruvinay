@@ -1,0 +1,23 @@
+.s-button{
+    margin: 5px;
+    padding: 2px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #4ebbcd;
+    border: 2px solid #16b0c8;
+    color: #fff;
+    margin-top: 21px;
+    margin-bottom: 0px;
+}
+.c-button{
+    margin: 5px;
+    padding: 2px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgb(233, 11, 11);
+    border: 2px solid rgb(187, 16, 16);
+    color: #fff;
+    margin-top: 21px;
+    margin-bottom: 0px;
+
+}

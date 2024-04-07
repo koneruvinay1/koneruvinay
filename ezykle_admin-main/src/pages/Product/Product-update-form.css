@@ -1,0 +1,113 @@
+.s-button{
+    margin: 5px;
+    padding: 2px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    background-color: #4ebbcd;
+    border: 2px solid #16b0c8;
+    color: #fff;
+}
+.c-button{
+    margin: 5px;
+    padding: 2px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: rgb(233, 11, 11);
+    border: 2px solid rgb(187, 16, 16);
+    color: #fff;
+
+}
+
+.client-search-input{
+    margin-right: 1000px;
+}
+.prices-container {
+    display: flex;
+  }
+  
+  .prices {
+    margin-right: 10px;
+  }
+  .costprice-container {
+    display: flex;
+  }
+  .costprice {
+    margin-right: 10px;
+  }
+  .ListContainer {
+    display: flex;
+    width: 100%;
+  }
+  
+  .List {
+    margin-right: 10px;
+   margin-left: 18px;
+
+  }
+
+  
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+    padding: 18px;
+  }
+
+  /* .row {
+    margin-left: -18px;
+    margin-right: 48px;
+  } */
+
+  .col-md-5 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .card-1 {
+    margin: 0;
+  }
+
+  .form-control {
+    width: 100%;
+  }
+
+  .prices-container,
+  .prices,
+  .costprice,
+  .ListContainer,
+  .List {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .label-style {
+    margin-top: 10px;
+  }
+
+  .prices-container,
+  .ListContainer {
+    margin-top: 10px;
+  }
+
+  .s-button,
+  .c-button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.card-1 {
+  margin: 0;
+  overflow: hidden; 
+}
+
+
+.form-group {
+    margin-bottom: 0rem;
+}
+.mt-5 {
+  margin-top: -4rem!important;
+}
+.row {
+  margin-left: -9px;
+  margin-right: 62px;
+}
